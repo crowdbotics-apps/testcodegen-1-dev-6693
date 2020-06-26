@@ -133,7 +133,7 @@ export class _Blank extends React.Component {
           }}
         >
           <Input
-            placeholder="Sample text input placeholder"
+            placeholder="Enter Description"
             editable={true}
             multiline={true}
             textStyle={{ height: 100, fontSize: 20, color: "#000000" }}
