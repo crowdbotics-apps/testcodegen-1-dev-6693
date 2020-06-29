@@ -197,7 +197,11 @@ export class _Blank extends React.Component {
               fontFamily: "System"
             }}
           />
-          <View
+          <ImageBackground
+            source={{
+              uri:
+                "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/0-Slack-Image.jpg"
+            }}
             style={{
               width: "100%",
               height: "100%",
@@ -218,7 +222,7 @@ export class _Blank extends React.Component {
               fontStyle: "normal",
               fontWeight: "normal",
               fontFamily: "System",
-              flexDirection: "row",
+              flexDirection: "column",
               flexWrap: "wrap",
               justifyContent: "flex-start",
               alignItems: "stretch",
@@ -231,88 +235,9 @@ export class _Blank extends React.Component {
               borderTopWidth: 0,
               borderBottomWidth: 0,
               borderRadius: 0,
-              backgroundSize: "auto"
+              backgroundSize: "stretch"
             }}
-          >
-            <ImageBackground
-              source={{
-                uri:
-                  "https://d3nfddh2sbo9hk.cloudfront.net/media/project_component_resources/0-Slack-Image.jpg"
-              }}
-              style={{
-                width: "50%",
-                height: "100%",
-                marginLeft: 0,
-                marginRight: 0,
-                marginTop: 0,
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "left",
-                verticalAlign: "baseline",
-                fontSize: 20,
-                color: "#000000",
-                backgroundColor: "#ffffff",
-                fontStyle: "normal",
-                fontWeight: "normal",
-                fontFamily: "System",
-                flexDirection: "column",
-                flexWrap: "wrap",
-                justifyContent: "flex-start",
-                alignItems: "stretch",
-                alignContent: "stretch",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0,
-                backgroundSize: "auto"
-              }}
-            />
-            <View
-              style={{
-                width: "50%",
-                height: "100%",
-                marginLeft: 0,
-                marginRight: 0,
-                marginTop: 0,
-                marginBottom: 0,
-                paddingLeft: 0,
-                paddingRight: 0,
-                paddingTop: 0,
-                paddingBottom: 0,
-                overflow: "visible",
-                textAlign: "left",
-                verticalAlign: "baseline",
-                fontSize: 20,
-                color: "#000000",
-                backgroundColor: "#ffffff",
-                fontStyle: "normal",
-                fontWeight: "normal",
-                fontFamily: "System",
-                flexDirection: "column",
-                flexWrap: "wrap",
-                justifyContent: "flex-start",
-                alignItems: "stretch",
-                alignContent: "stretch",
-                borderColor: "#000000",
-                borderStyle: "solid",
-                borderWidth: 0,
-                borderLeftWidth: 0,
-                borderRightWidth: 0,
-                borderTopWidth: 0,
-                borderBottomWidth: 0,
-                borderRadius: 0,
-                backgroundSize: "auto"
-              }}
-            />
-          </View>
+          />
         </View>
         <View
           style={{
